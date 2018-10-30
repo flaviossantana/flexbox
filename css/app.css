@@ -14,7 +14,7 @@
 .logo {
     background-color: #324C64;
     justify-content: center;
-    flex-grow: 1;
+    flex-grow: 1.11;
 }
 
 .menus-um {
@@ -24,9 +24,14 @@
     flex-direction: column;
 }
 
+.menu-tres {
+    background-color: #a66700;
+    flex-grow: 0.12;
+}
+
 .menu-um {
     background-color: #9799A6;
-    flex-grow: 1;
+    flex-grow: 2;
 }
 
 .menus-dois {
