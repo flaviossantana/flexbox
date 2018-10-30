@@ -1,0 +1,80 @@
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: yellow;
+    flex-grow: 1;
+    height: 20%;
+    display: flex;
+}
+
+.logo {
+    background-color: #324C64;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.menus-um {
+    background-color: #324C00;
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-um {
+    background-color: #9799A6;
+    flex-grow: 1;
+}
+
+.menus-dois {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-grow: 1;
+}
+
+.menuzinho {
+    background-color: #AD85BF;
+    flex-grow: 1;
+}
+
+.pesquisa {
+    background-color: #EC6E5A;
+    flex-grow: 1;
+}
+
+.conteudo {
+    background-color: blue;
+    flex-grow: 3;
+    height: 80%;
+    display: flex;
+}
+
+.col-um {
+    background-color: #5bff05;
+    flex-grow: 1;
+}
+
+.col-dois {
+    background-color: #5bf2f5;
+    flex-grow: 4;
+    display: flex;
+}
+
+.col-dois-um {
+    background-color: #116bf5;
+    flex-grow: 4;
+}
+
+.col-dois-dois {
+    background-color: #ad1ff5;
+    flex-grow: 3;
+}
+
+.col-dois-tres {
+    background-color: #f50080;
+    flex-grow: 0.5;
+}
